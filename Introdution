@@ -1,1 +1,42 @@
+#script.rb
+# tudo em ruby é um objeto
+# linguagem interpretada
+#
+###################################################################################
+#variavel
+
+my_num =  25  
+
+my_boolean =  true 
+
+my_string =  "Ruby"  
+
+###################################################################################
+# O/I
+
+puts "oi, tudo bem?"
+print "estou bem"
+
+###################################################################################
+#strings
+"alessandro".length -> 10
+"ola".reverse -> alo
+
+puts "alessandro".upcase  -> ALESSANDRO
+puts "alessandro".downcase -> alessandro
+
+name = "alessandro"
+name.downcase
+name.reverse
+name.upcase
+
+ou
+name.downcase.reverse.upcase
+###################################################################################
+# comentario de uma linha
+
+=begin
+comentario de varias linhas
+=end
+###################################################################################
 
